@@ -19,7 +19,8 @@
     "lint:css": "pnpm --filter @zhaoxinkun/blog lint:css",
     "fmt": "pnpm --filter @zhaoxinkun/blog fmt",
     "fmt:check": "pnpm --filter @zhaoxinkun/blog fmt:check",
-    "preview": "pnpm --filter @zhaoxinkun/blog preview"
+    "preview": "pnpm --filter @zhaoxinkun/blog preview",
+    "commit": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.1",
@@ -28,5 +29,10 @@
     "commitizen": "^4.3.2",
     "cz-git": "^1.13.1",
     "lefthook": "^2.1.10"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   }
 }
