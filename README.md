@@ -15,7 +15,7 @@ Note: This will impact Vite dev & build performances.
 
 ## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `apps/blog/.oxlintrc.json`:
 
 ```json
 {

@@ -1,0 +1,43 @@
+{
+  "name": "@zhaoxinkun/blog",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "lint:css": "stylelint \"src/**/*.{css,scss}\"",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.170.18",
+    "@tanstack/react-router-devtools": "^1.167.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "stylelint-scss": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@rolldown/plugin-babel": "^0.2.3",
+    "@tanstack/router-devtools": "^1.167.0",
+    "@tanstack/router-plugin": "^1.168.23",
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "oxfmt": "^0.60.0",
+    "oxlint": "^1.71.0",
+    "stylelint": "^17.14.1",
+    "stylelint-config-recommended-scss": "^17.0.1",
+    "stylelint-config-standard": "^40.0.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  }
+}
