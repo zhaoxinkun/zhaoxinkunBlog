@@ -41,6 +41,16 @@
 #     - script: "hello.go"
 #       runner: go run
 
+pre-commit:
+  parallel: true
+  commands:
+    typecheck:
+      run: pnpm typecheck
+    lint:
+      run: pnpm lint
+    format:
+      run: pnpm fmt:check
+
 commit-msg:
   commands:
     commitlint:
