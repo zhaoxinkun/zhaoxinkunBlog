@@ -16,7 +16,8 @@
   "dependencies": {
     "@tanstack/react-router": "^1.170.18",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "stylelint-scss": "^7.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
